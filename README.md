@@ -3,16 +3,18 @@
 # arrays random items
 ![2025-11-27-12-23-07](https://github.com/user-attachments/assets/e839136f-2c64-4f08-ae09-7a8c6de1a546)
 
+[Uploading randomitem.cs…]()
 
 
+    using UnityEngine;
 
-using UnityEngine;
-
-public class randomitem : MonoBehaviour
-{
- [SerializeField] string[] Items = new string[10]; 
-    void Start()
-    {
+     public class randomitem : MonoBehaviour
+     {
+ 
+    [SerializeField] string[] Items = new string[10]; 
+ 
+          void Start()
+           {
         Items[0] ="apple";
         Items[1] ="pear";
         Items[2] ="pineapple";
@@ -22,12 +24,13 @@ public class randomitem : MonoBehaviour
         Items[6] ="mango";
         Items[7] ="bannana";
         Items[8] ="sugarapple";
-        Items[9] ="orange";
- 
- }
+              Items[9] ="orange";
         
+     }        
     
-        void Update()
+
+    
+    void Update()
     {
 
     
@@ -45,7 +48,11 @@ public class randomitem : MonoBehaviour
             Debug.Log(it);
         }
     }
-}
+      }
+
+
+
+
 
 
 
